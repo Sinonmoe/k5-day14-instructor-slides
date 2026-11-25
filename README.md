@@ -2,7 +2,7 @@
 
 Deck giảng viên cho **K5 Level 3 — Day 14: Deployment, Benchmark & Observability**.
 
-- **Ca sáng:** `08:00 đến 12:00` (`?ca=sang`)
+- **Ca sáng:** `09:00 đến 13:00` (`?ca=sang`)
 - **Ca chiều:** `14:00 đến 18:00` (`?ca=chieu`)
 
 ## Phát triển local

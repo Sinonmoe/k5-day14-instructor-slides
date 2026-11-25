@@ -1,7 +1,7 @@
 // Morning / afternoon class handling.
 //
 // Afternoon schedule: 14:00 to 18:00.
-// Morning schedule starts at 08:00 (08:00 to 12:00), shifted by -360 minutes (-6 hours).
+// Morning schedule starts at 09:00 (09:00 to 13:00), shifted by -300 minutes (-5 hours).
 //
 // Slide content is written in afternoon times. localize() shifts every HH:MM between 13:00 and
 // 18:59 for the morning class, and fills the {{SESSION}} / {{SESSION_RANGE}} / {{DEADLINE}} tokens.
@@ -11,8 +11,8 @@ export type Session = 'morning' | 'afternoon'
 /** Hour (local time) from which the deck opens as the afternoon class. */
 export const AFTERNOON_FROM_HOUR = 13
 
-/** Morning class = afternoon schedule moved 6h earlier (14:00 to 08:00). */
-export const MORNING_SHIFT_MINUTES = -360
+/** Morning class = afternoon schedule moved 5h earlier (14:00 to 09:00). */
+export const MORNING_SHIFT_MINUTES = -300
 
 const AFTERNOON_START = '14:00'
 const AFTERNOON_END = '18:00'
